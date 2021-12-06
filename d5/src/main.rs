@@ -35,7 +35,7 @@ impl VentLine {
         }
     }
 
-    /// Whether this VentLine is placed horizontally.
+    /// Whether this VentLine is placed diagonally.
     fn is_diagonal(&self) -> bool {
         if self.first.0 != self.second.0 && self.first.1 != self.second.1 {
             true
